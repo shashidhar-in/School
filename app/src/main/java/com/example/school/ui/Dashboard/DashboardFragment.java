@@ -1,4 +1,4 @@
-package com.example.school.ui.gallery;
+package com.example.school.ui.Dashboard;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -7,24 +7,31 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import com.example.school.R;
-import com.example.school.databinding.FragmentGalleryBinding;
+import com.example.school.databinding.FragmentDashboardBinding;
 
-public class GalleryFragment extends Fragment {
+public class DashboardFragment extends Fragment {
 
-    private GalleryViewModel galleryViewModel;
-private FragmentGalleryBinding binding;
+
+
+    private DashboardViewModel dashboardViewModel;
+private FragmentDashboardBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
             ViewGroup container, Bundle savedInstanceState) {
-        galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
 
-    binding = FragmentGalleryBinding.inflate(inflater, container, false);
+
+        dashboardViewModel =
+                new ViewModelProvider(this).get(DashboardViewModel.class);
+
+    binding = FragmentDashboardBinding.inflate(inflater, container, false);
     View root = binding.getRoot();
+
+
 
         return root;
     }

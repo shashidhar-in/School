@@ -8,8 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="title">#2196F3</color>
-    <color name="sub">#FF9800</color>
-    <color name="colorPrimary">#008DD5</color>
+    <color name="sub">#c8852c</color>
+    <color name="colorPrimary">#047990</color>
     <color name="hidePassword">#6BC1ED</color>
     <color name="colorPrimaryVariant">#3F51B5 </color>
     <color name="color_grey">#4B4B4C</color>

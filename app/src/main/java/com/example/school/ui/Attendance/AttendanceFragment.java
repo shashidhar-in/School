@@ -1,4 +1,4 @@
-package com.example.school.ui.slideshow;
+package com.example.school.ui.Attendance;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,23 +11,22 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import com.example.school.R;
-import com.example.school.databinding.FragmentSlideshowBinding;
+import com.example.school.databinding.FragmentAttendanceBinding;
+public class AttendanceFragment extends Fragment {
 
-public class SlideshowFragment extends Fragment {
-
-    private SlideshowViewModel slideshowViewModel;
-private FragmentSlideshowBinding binding;
+    private com.example.school.ui.Attendance.AttendanceViewModel attendanceViewModel;
+private FragmentAttendanceBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
             ViewGroup container, Bundle savedInstanceState) {
-        slideshowViewModel =
-                new ViewModelProvider(this).get(SlideshowViewModel.class);
+        attendanceViewModel =
+                new ViewModelProvider(this).get(AttendanceViewModel.class);
 
-    binding = FragmentSlideshowBinding.inflate(inflater, container, false);
+    binding = FragmentAttendanceBinding.inflate(inflater, container, false);
     View root = binding.getRoot();
 
         final TextView textView = binding.textSlideshow;
-        slideshowViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        attendanceViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
@@ -41,4 +40,7 @@ private FragmentSlideshowBinding binding;
         super.onDestroyView();
         binding = null;
     }
+
+
+
 }

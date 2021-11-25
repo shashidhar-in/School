@@ -1,4 +1,4 @@
-package com.example.school.ui.home;
+package com.example.school.ui.Profile;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,21 +11,20 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import com.example.school.R;
-import com.example.school.databinding.FragmentHomeBinding;
+import com.example.school.databinding.FragmentProfileBinding;
 
-public class HomeFragment extends Fragment {
+public class ProfileFragment extends Fragment {
 
-    private HomeViewModel homeViewModel;
-private FragmentHomeBinding binding;
+    private ProfileViewModel profileViewModel;
+private FragmentProfileBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
             ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
+        profileViewModel =
+                new ViewModelProvider(this).get(ProfileViewModel.class);
 
-    binding = FragmentHomeBinding.inflate(inflater, container, false);
+    binding = FragmentProfileBinding.inflate(inflater, container, false);
     View root = binding.getRoot();
-
 
         return root;
     }

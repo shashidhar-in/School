@@ -13,7 +13,7 @@
         android:theme="@style/Theme.School.AppBarOverlay">
 
         <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
+            android:id="@+id/toolbarr"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
@@ -24,11 +24,5 @@
     <include layout="@layout/content_main"/>
 
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        app:menu="@menu/activity_main_drawer"
-        android:layout_gravity="bottom|end"
-        android:layout_width="match_parent"
-        android:layout_height="75dp"
-        />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
