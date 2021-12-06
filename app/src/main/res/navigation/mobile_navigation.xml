@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_dashboard">
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/mobile_navigation"
+app:startDestination="@+id/nav_dashboard">
 
-    <fragment
-        android:id="@+id/nav_dashboard"
-        android:name="com.example.school.ui.Dashboard.DashboardFragment"
-        android:label="@string/menu_dash"
-        tools:layout="@layout/fragment_dashboard" />
+<fragment
+    android:id="@+id/nav_dashboard"
+    android:name="com.example.school.ui.Dashboard.DashboardFragment"
+    android:label="@string/menu_dash"
+    tools:layout="@layout/fragment_dashboard" />
 
-    <fragment
-        android:id="@+id/nav_profile"
-        android:name="com.example.school.ui.Profile.ProfileFragment"
-        android:label="@string/menu_profile"
-        tools:layout="@layout/fragment_profile" />
+<fragment
+    android:id="@+id/nav_profile"
+    android:name="com.example.school.ui.Profile.ProfileFragment"
+    android:label="@string/menu_profile"
+    tools:layout="@layout/fragment_profile" />
 
-    <fragment
-        android:id="@+id/nav_attendance"
-        android:name="com.example.school.ui.Attendance.AttendanceFragment"
-        android:label="@string/menu_attendance"
-        tools:layout="@layout/fragment_attendance" />
+<fragment
+    android:id="@+id/nav_attendance"
+    android:name="com.example.school.ui.Attendance.AttendanceFragment"
+    android:label="@string/menu_attendance"
+    tools:layout="@layout/fragment_attendance" />
+<fragment
+    android:id="@+id/nav_adduser"
+    android:name="com.example.school.ui.AddUserFragment"
+    android:label="@string/adduser"
+    tools:layout="@layout/fragment_add_user" />
+<fragment
+    android:id="@+id/nav_happenings"
+    android:name="com.example.school.ui.HappeningsFragment"
+    android:label="Happenings"
+    tools:layout="@layout/fragment_happenings" />
 </navigation>

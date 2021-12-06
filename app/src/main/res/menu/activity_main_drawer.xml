@@ -16,5 +16,26 @@
             android:id="@+id/nav_attendance"
             android:icon="@drawable/ic_attendace"
             android:title="@string/menu_attendance" />
+        <item
+            android:id="@+id/nav_announcements"
+            android:icon="@drawable/ic_annoucements"
+            android:title="Announcements" />
+        <item
+            android:id="@+id/nav_results"
+            android:icon="@drawable/ic_results"
+            android:title="Results"/>
+        <item
+            android:id="@+id/nav_assignments"
+            android:icon="@drawable/ic_assignment"
+            android:title="Assignments" />
+        <item
+            android:id="@+id/nav_exams"
+            android:icon="@drawable/ic_exam"
+            android:title="Exams Available" />
+        <item
+            android:id="@+id/nav_adduser"
+            android:icon="@drawable/ic_baseline_person_add_24"
+            android:title="Add User" />
     </group>
+
 </menu>

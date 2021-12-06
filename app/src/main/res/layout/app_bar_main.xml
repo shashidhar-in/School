@@ -12,11 +12,13 @@
         android:layout_width="match_parent"
         android:theme="@style/Theme.School.AppBarOverlay">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbarr"
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
+            app:titleCentered="true"
+            android:elevation="8dp"
             app:popupTheme="@style/Theme.School.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>

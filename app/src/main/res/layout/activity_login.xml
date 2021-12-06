@@ -110,8 +110,6 @@
             android:textSize="20dp"
             android:text="Login" />
 
-        
-q
         <TextView
             android:id="@+id/forgot_password"
             android:layout_gravity="center"

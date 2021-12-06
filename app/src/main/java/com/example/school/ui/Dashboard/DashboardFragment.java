@@ -4,25 +4,30 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.ViewModelProvider;
+
+import com.example.school.ChatFragment;
 import com.example.school.R;
 import com.example.school.databinding.FragmentDashboardBinding;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class DashboardFragment extends Fragment {
 
 
 
     private DashboardViewModel dashboardViewModel;
-private FragmentDashboardBinding binding;
+        private FragmentDashboardBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
             ViewGroup container, Bundle savedInstanceState) {
+
+
+        FloatingActionButton Chat;
+
 
 
         dashboardViewModel =
@@ -32,8 +37,25 @@ private FragmentDashboardBinding binding;
     View root = binding.getRoot();
 
 
+    Chat=binding.fab;
 
-        return root;
+
+    Chat.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            ChatFragment chatFragment=new ChatFragment();
+         FragmentTransaction transaction=getFragmentManager().beginTransaction();
+         transaction.replace(R.id.nav_host_fragment_content_main,chatFragment);
+         transaction.commit();
+
+
+
+
+        }
+    });
+
+
+        return binding.getRoot();
     }
 
 @Override

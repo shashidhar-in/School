@@ -5,30 +5,56 @@
       <map>
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/drawable/bg_card.xml" value="0.290625" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/drawable/bg_grad.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/drawable/ic_attendace.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.290625" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/drawable/ic_baseline_person_add_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/drawable/ic_chat.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/drawable/ic_exam.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/drawable/ic_hide_password.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/drawable/ic_logout.xml" value="0.1925925925925926" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/drawable/ic_logout_24.xml" value="0.1925925925925926" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/drawable/ic_menu_camera.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/drawable/ic_profile.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/drawable/ic_rms.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/drawable/intro_border.xml" value="0.290625" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/drawable/round_bg.xml" value="0.290625" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/drawable/round_border.xml" value="0.290625" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/drawable/side_nav_bar.xml" value="0.290625" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.17637215528781794" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout-w936dp/activity_login.xml" value="0.17793715846994534" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/activity_app_info.xml" value="0.264" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/activity_forget_password.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/activity_intro.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
-        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/content_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/activity_student.xml" value="0.25" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/activity_teacher.xml" value="0.1" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/app_bar_main_student.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/app_bar_main_teacher.xml" value="0.25" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/content_main.xml" value="0.264" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/content_main_student.xml" value="0.25" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/content_main_teacher.xml" value="0.25" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/fragment_add_user.xml" value="0.25" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/fragment_attendance.xml" value="0.1" />
-        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/fragment_chat.xml" value="0.25" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/fragment_dashboard.xml" value="0.2" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/fragment_gallery.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/fragment_happenings.xml" value="0.25" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/fragment_happenings_list.xml" value="0.2359375" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/fragment_home.xml" value="0.264" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/fragment_profile.xml" value="0.12407407407407407" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/fragment_s__dashboard.xml" value="0.19927536231884058" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/fragment_slideshow.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/fragment_t__dashboard.xml" value="0.2" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/layout/nav_header_main.xml" value="0.14375" />
-        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/menu/activity_main_drawer.xml" value="0.536" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/menu/activity_main_drawer.xml" value="0.264" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/menu/activity_main_drawer_student.xml" value="0.25" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/menu/activity_main_drawer_teacher.xml" value="0.25" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/menu/bottom_nav.xml" value="0.536" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/menu/bottom_nav_student.xml" value="0.25" />
+        <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/menu/bottom_nav_teacher.xml" value="0.25" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/menu/main.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/shash/AndroidStudioProjects/School/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.15989583333333332" />
       </map>
